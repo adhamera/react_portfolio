@@ -1,30 +1,134 @@
+// @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Dancing+Script:wght@400;700&family=Josefin+Sans&family=Limelight&family=Oooh+Baby&family=Permanent+Marker&family=Roboto:wght@100;300;700;900&family=Sacramento&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cutive+Mono&family=Dancing+Script:wght@400;700&family=Josefin+Sans&family=Limelight&family=Oooh+Baby&family=Pacifico&family=Permanent+Marker&family=Roboto:wght@100;300;700;900&family=Sacramento&family=Yellowtail&display=swap');
 .home{
-    background-color: white;
+    background-color: rgb(225, 237, 241);
     display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/boho.jpeg");
+  background-size: cover;
 
+    .instaContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        text-decoration: none;
+        margin-left: -900px;
+        margin-top: 250px;
+    
+      
+
+        .instaicon {
+            // font-style: 18px;
+            margin-right: 5px;
+            color: purple;
+            font-size:xx-large;
+        
+
+        }
+
+    }
+    .linkedinContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        text-decoration: none;
+        margin-left: -100px;
+        margin-top: 250px;
+    
+      
+
+        .linkedinicon {
+            // font-style: 18px;
+            margin-right: 5px;
+            color: rgb(39, 9, 145);
+            font-size: xx-large;
+        
+
+        }
+
+    }
+    .gitContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        text-decoration: none;
+        margin-left: 85px;
+        margin-top: 250px;
+    
+      
+
+        .giticon {
+            // font-style: 18px;
+            margin-right: 5px;
+            color: black;
+            font-size: xx-large;
+        
+
+        }
+
+    }
+    .facebookContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        text-decoration: none;
+        margin-left: 33px;
+        margin-top: 250px;
+    
+      
+
+        .facebookicon {
+            // font-style: 18px;
+            margin-right: 5px;
+            color: rgb(40, 74, 165);
+            font-size: xx-large;
+        
+
+        }
+
+    }
  
 
     .wrapper{
     width: 100%;
     height: 100%;
-    margin-top: 30%;
+    margin-top: 18%;
     display: flex;
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
+    
     // margin-right: 200px;
 
     h1{
-        font-size: 60px;
+        font-size: 70px;
+        color: black;
+        // font-family: 'Yellowtail', cursive;
+        // font-family: 'Limelight', cursive;
+    
     }
 
     h2{
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: 10px;
+        font-weight: 400;
+        // font-family: 'Permanent Marker', cursive;
     }
      
-    
+    h3{
+        font-size: 35px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: 400;
 
+        span{
+            font-size: inherit;
+            color: rgb(79, 79, 82);
+        }
+     
     }
+
+}
 
 }

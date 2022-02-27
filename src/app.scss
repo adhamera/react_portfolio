@@ -1,27 +1,28 @@
 .app{
     height: 100vh;
 
+
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: lightpink;
-        background-image: url("./boho_desktop_ans.jpeg");
+        background-color: white;
+        // background-image: url("./boho_desktop_ans.jpeg");
         background-size: cover;
         position: relative;
         top: 70px;
-        // scroll-behavior: smooth;
-        // scroll-snap-type: y mandatory;
-        // scrollbar-width: none;
-        // &::-webkit-scrollbar{
-        //     display: none;
-        // }
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
         overflow: hidden;
         
 
         > *{
-            // width: 100vw;
-            // height: calc(100vh - 70px);
-            // scroll-snap-type: start;
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-type: start;
             overflow: hidden;
 
         }

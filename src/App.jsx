@@ -2,9 +2,10 @@ import Topbar from "./components/topbar/Topbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About"
 import Portfolio from "./components/portfolio/Portfolio"
-import Projects from "./components/projects/Projects"
+// import Projects from "./components/projects/Projects"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu";
+import Cards from "./components/projects/Cards"
 import "./app.scss"
 import { useState } from "react";
 
@@ -18,7 +19,8 @@ function App() {
     <Home/>
     <About/>
     <Portfolio/>
-    <Projects/>
+    {/* <Projects/> */}
+    <Cards/>
     <Contact/>
 
     </div>
