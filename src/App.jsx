@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About"
-import Portfolio from "./components/portfolio/Portfolio"
+
 // import Projects from "./components/projects/Projects"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu";
@@ -18,7 +18,6 @@ function App() {
     <div className="sections">
     <Home/>
     <About/>
-    <Portfolio/>
     {/* <Projects/> */}
     <Cards/>
     <Contact/>

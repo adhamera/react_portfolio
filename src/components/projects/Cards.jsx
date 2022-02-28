@@ -11,6 +11,7 @@ class Cards extends Component{
 
     render() {
         return(
+            <div className="projects" id="projects">
             <div className="container-fluid.d-flex.justify-content-center">
                 <div className="row">
                     <div className="col-md-4">
@@ -26,6 +27,7 @@ class Cards extends Component{
 
                     </div>
                 </div>
+            </div>
             </div>
 
          );

@@ -15,6 +15,7 @@ export default function Home() {
   },[]);
   return (
     <div className="home" id="home">
+        <div className="left">
         <div className="wrapper">
         <h2>Hello! My name is</h2>
         <h1>Anusha Dhamera.</h1>
@@ -32,10 +33,12 @@ export default function Home() {
         <div className="facebookContainer">
             <Facebook className="facebookicon" />
         </div>
-
-     
-       
-
+    </div>
+    <div className="right">
+          <div className="imgContainer">
+           <img src="assets/homeimg.jpeg" alt=""/>
+          </div>
+          </div>
     </div>
   )
 }
