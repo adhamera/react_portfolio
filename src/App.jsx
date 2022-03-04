@@ -1,11 +1,11 @@
 import Topbar from "./components/topbar/Topbar";
 import Home from "./components/home/Home";
-import About from "./components/about/About"
-
-// import Projects from "./components/projects/Projects"
-import Contact from "./components/contact/Contact"
+import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
-import Cards from "./components/projects/Cards"
+// import Cards from "./components/projects/Cards"
 import "./app.scss"
 import { useState } from "react";
 
@@ -18,8 +18,9 @@ function App() {
     <div className="sections">
     <Home/>
     <About/>
-    {/* <Projects/> */}
-    <Cards/>
+    <Projects/>
+    {/* <Cards/> */}
+    <Resume/>
     <Contact/>
 
     </div>

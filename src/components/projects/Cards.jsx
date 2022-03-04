@@ -24,11 +24,10 @@ class Cards extends Component{
                     <Card imgsrc={img3}/>
                     </div>
                     <div className="col-md-4">
-
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
 
          );
     }

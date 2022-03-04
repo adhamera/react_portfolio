@@ -7,7 +7,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
         <a href="#about" className="logo">
-          <img src="assets/ad.png" alt=""/>
+          <img src="assets/logo5.png" alt=""/>
           </a>
           <div className="homeoption">
             <a href="#home" onClick={() => setMenuOpen(false)}>
@@ -27,6 +27,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <a href="#projects" onClick={() => setMenuOpen(false)}>
             <div className="itemContainer"> 
             <span>Projects</span>
+            </div>
+            </a>
+          </div>
+          <div className="resumeoption">
+            <a href="#resume" onClick={() => setMenuOpen(false)}>
+            <div className="itemContainer"> 
+            <span>Resume</span>
             </div>
             </a>
           </div>

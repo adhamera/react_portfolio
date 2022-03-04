@@ -1,17 +1,51 @@
-// .projects{
-//     background-color: white;
- 
-// }
+.projects {
+   background-color: white;
+    background-image: url("../assets/plant.jpeg");
+    background-size: cover;
 
 body{
     background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
 }
 
+.wrapper-one {
+    h1 {
+    font-size: 68px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(65, 61, 61);
+    }
+
 .card{
+
     width: 20rem;
-    height: 90%;
-    margin-top: 25px;
-    margin-left: 100px;
+    height: 80%;
+    margin-top: 100px;
+    margin-left: 50px;
+   background-color: rgb(236, 242, 243);
+    // background: linear-gradient(45deg, rgb(108, 108, 116), rgb(183, 238, 238));;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 3px;
+    // background-image: url("../assets/pink.jpeg");
+    background-size: cover;
+
+
+    .card-title{
+        color: rgb(10, 65, 87);
+        font-weight: 600;
+    }
+
+   
+
+    .btn{
+        background-color: rgb(10, 65, 87);
+    }
+
+    .btn-outline-success {
+        color: white;
+    }
+
 }
 
 .card:hover{
@@ -19,15 +53,20 @@ body{
 }
 
 .card-body{
-    padding: 3rem 1rem !important;
+    padding: 2rem 1rem !important;
 }
 
-.card-text{
-    font-size: .9rem;
+.card-text-p{
+    font-size: 1rem;
     padding: 0.4rem 1.9rem;
+    color: rgb(114, 111, 111);
 }
 
 .container-fluid.row{
     padding-top: 6rem;
     padding-right: 3rem;
+    
+}
+
+}
 }

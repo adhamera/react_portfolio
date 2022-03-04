@@ -1,8 +1,9 @@
 .contact {
     height: 100vh;
     position: relative;
-    background-image: url("../assets/cool.jpeg");
-    background-size: cover;
+    /* background-image: url("../assets/cool.jpeg");
+    background-size: cover; */
+    background-color: rgb(236, 242, 243);
 }
 
 .c-bg{

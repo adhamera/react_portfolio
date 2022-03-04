@@ -19,24 +19,13 @@ export default function Home() {
         <div className="wrapper">
         <h2>Hello! My name is</h2>
         <h1>Anusha Dhamera.</h1>
-        <h3>I'm a Software Engineer<span ref={textRef}> </span></h3>
-        </div>
-        <div className="instaContainer">
-            <Instagram className="instaicon" />
-        </div>
-        <div className="linkedinContainer">
-            <LinkedIn className="linkedinicon" />
-        </div>
-        <div className="gitContainer">
-            <GitHub className="giticon" />
-        </div>
-        <div className="facebookContainer">
-            <Facebook className="facebookicon" />
+        <h3>I'm a Software Engineer.</h3>
+        {/* <span ref={textRef}> </span> */}
         </div>
     </div>
     <div className="right">
           <div className="imgContainer">
-           <img src="assets/homeimg.jpeg" alt=""/>
+           <img src="assets/anusha.jpeg" alt=""/>
           </div>
           </div>
     </div>

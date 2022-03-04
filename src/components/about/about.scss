@@ -2,25 +2,33 @@
   background-color: white;
   display: flex;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
+//   background-image: url("../assets/aboutme.png");
+// background-size: cover;
 
 
   .left {
-    flex: 0.5;
+    flex: 0.45;
     overflow: hidden;
+    // background-image: url("../assets/oval.jpeg");
+    // background-size: cover;
+   
+  
 
     .imgContainer {
-      width: 500px;
-      height: 500px;
+      width: 700px;
+      height: 700px;
       // background-color: rgb(37, 80, 124);
-      border-radius: 50%;
+      // border-radius: 50%;
       display: flex;
       // align-items: flex-end;
       justify-content: center;
-      margin-top: 180px;
-      margin-right: 200px;
+      margin-top: 100px;
+      margin-right: 30px;
+     
       float: right;
+  
 
       .img {
         height: 90%;
@@ -28,8 +36,9 @@
     }
   }
   .right {
-    flex: 0.5;
-
+    flex: 0.55;
+    background-color: rgb(255, 252, 249);
+    // background-color: rgb(254, 255, 248);
     .wrapper {
       width: 70%;
       height: 100%;
@@ -44,26 +53,30 @@
         font-size: 68px;
         margin-bottom: 10px;
         margin-top: 25px;
+        margin-left: 75px;
+        
       }
 
       h2 {
         font-size: 30px;
         margin-bottom: 10px;
+        margin-left: 75px;
       }
 
       p {
         font-size: 19px;
         margin-bottom: 10px;
+        margin-left: 75px;
       }
 
       span {
-        color: rgb(108, 153, 211);
+        color: rgb(65, 116, 116);
       }
 
       .bikeContainer {
         display: flex;
         align-items: center;
-        margin-left: 30px;
+        margin-left: 100px;
         text-decoration: none;
         margin-top: 20px;
 
@@ -72,7 +85,7 @@
           margin-right: 5px;
           color: black;
           // font-size: xx-large;
-          background-color: rgb(224, 209, 243);
+          background-color: rgb(190, 223, 213);
           border-radius: 35%;
           height: 70px;
           width: 70px;
@@ -82,7 +95,7 @@
       .fitnessContainer {
         display: flex;
         align-items: center;
-        margin-left: 170px;
+        margin-left: 250px;
         text-decoration: none;
         margin-top: -70px;
 
@@ -91,7 +104,7 @@
           margin-right: 5px;
           color: black;
           // font-size: xx-large;
-          background-color: rgb(239, 240, 188);
+          background-color: rgb(190, 223, 213);
           border-radius: 35%;
           height: 70px;
           width: 70px;
@@ -101,7 +114,7 @@
       .brushContainer {
         display: flex;
         align-items: center;
-        margin-left: 300px;
+        margin-left: 400px;
         text-decoration: none;
         margin-top: -70px;
 
@@ -110,7 +123,7 @@
           margin-right: 5px;
           color: black;
           // font-size: xx-large;
-          background-color: rgb(204, 226, 238);
+          background-color: rgb(190, 223, 213);
           border-radius: 35%;
           height: 70px;
           width: 70px;

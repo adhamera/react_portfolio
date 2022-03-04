@@ -1,133 +1,136 @@
 // @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Dancing+Script:wght@400;700&family=Josefin+Sans&family=Limelight&family=Oooh+Baby&family=Permanent+Marker&family=Roboto:wght@100;300;700;900&family=Sacramento&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cutive+Mono&family=Dancing+Script:wght@400;700&family=Josefin+Sans&family=Limelight&family=Oooh+Baby&family=Pacifico&family=Permanent+Marker&family=Roboto:wght@100;300;700;900&family=Sacramento&family=Yellowtail&display=swap');
+
 .home{
     background-color: rgb(225, 237, 241);
     display: flex;
     width: 100%;
     height: 100%;
-    background-image: url("../assets/boho.jpeg");
+    background-image: url("../assets/cute.jpeg");
     background-size: cover;
     .left {
-        flex: 0.6;
+        flex: 0.60;
+        // max-height: 70%;
         
     
         .wrapper {
           width: 70%;
-          height: 100%;
-          margin-top: 330px;
+          height: 60%;
+        //   margin-top: 345px;
+        padding-top: 175px;
           display: flex;
           flex-direction: column;
           // justify-content: center;
           flex-wrap: wrap;
-          margin-left: 350px;
+          margin-left: 420px;
           
       
-        
-        //   .instaContainer {
-        //     display: flex;
-        //     align-items: center;
-        //     margin-left: 30px;
-        //     text-decoration: none;
-        //     margin-left: 900px;
-        //     margin-top: 250px;
-        
-          
-    
-        //     .instaicon {
-        //         // font-style: 18px;
-        //         margin-right: 5px;
-        //         color: purple;
-        //         font-size:xx-large;
-            
-    
-        //     }
-    
-        // }
-        // .linkedinContainer {
-        //     display: flex;
-        //     align-items: center;
-        //     margin-left: 30px;
-        //     text-decoration: none;
-        //     margin-left: -100px;
-        //     margin-top: 250px;
-        
-          
-    
-        //     .linkedinicon {
-        //         // font-style: 18px;
-        //         margin-right: 5px;
-        //         color: rgb(39, 9, 145);
-        //         font-size: xx-large;
-            
-    
-        //     }
-    
-        // }
-        // .gitContainer {
-        //     display: flex;
-        //     align-items: center;
-        //     text-decoration: none;
-        //     margin-left: 5px;
-        //     margin-top: 250px;
-        
-          
-    
-        //     .giticon {
-        //         // font-style: 18px;
-        //         margin-right: 5px;
-        //         color: black;
-        //         font-size: xx-large;
-            
-    
-        //     }
-    
-        // }
-        // .facebookContainer {
-        //     display: flex;
-        //     align-items: center;
-        //     text-decoration: none;
-        //     margin-left: 33px;
-        //     margin-top: 250px;
-        
-          
-    
-        //     .facebookicon {
-        //         // font-style: 18px;
-        //         margin-right: 5px;
-        //         color: rgb(40, 74, 165);
-        //         font-size: xx-large;
-            
-    
-        //     }
-    
-        // }
         }
     }
     .right {
-        flex: 0.45;
+        flex: 0.40;
         overflow: hidden;
     
         .imgContainer {
-          width: 500px;
-          height: 500px;
+          width: 368px;
+          height: 360px;
           // background-color: rgb(37, 80, 124);
         //   border-radius: 50%;
           display: flex;
-          // align-items: flex-end;
+          align-items: flex-end;
           justify-content: center;
-          margin-top: 200px;
-          margin-right: 350px;
-          border-top-right-radius: 250px 350px;
-          border-top-left-radius: 250px 350px;
+          margin-top: 270px;
+          margin-right: 315px;
+          border-radius: 50%;
+        //   border-top-right-radius: 300px 350px;
+        //   border-top-left-radius: 300px 350px;
         
           float: right;
     
           .img {
-            height: 90%;
+            height: 100%;
     
           }
         }
       }
+    // .instaContainer {
+    //     display: flex;
+    //     align-items: center;
+    //     margin-left: 30px;
+    //     text-decoration: none;
+    //     margin-left: -900px;
+    //     margin-top: 250px;
+    
+      
+
+    //     .instaicon {
+    //         // font-style: 18px;
+    //         margin-right: 5px;
+    //         color: purple;
+    //         font-size:xx-large;
+        
+
+    //     }
+
+    // }
+    // .linkedinContainer {
+    //     display: flex;
+    //     align-items: center;
+    //     margin-left: 30px;
+    //     text-decoration: none;
+    //     margin-left: -100px;
+    //     margin-top: 250px;
+    
+      
+
+    //     .linkedinicon {
+    //         // font-style: 18px;
+    //         margin-right: 5px;
+    //         color: rgb(39, 9, 145);
+    //         font-size: xx-large;
+        
+
+    //     }
+
+    // }
+    // .gitContainer {
+    //     display: flex;
+    //     align-items: center;
+    //     text-decoration: none;
+    //     margin-left: 85px;
+    //     margin-top: 250px;
+    
+      
+
+    //     .giticon {
+    //         // font-style: 18px;
+    //         margin-right: 5px;
+    //         color: black;
+    //         font-size: xx-large;
+        
+
+    //     }
+
+    // }
+    // .facebookContainer {
+    //     display: flex;
+    //     align-items: center;
+    //     text-decoration: none;
+    //     margin-left: 33px;
+    //     margin-top: 250px;
+    
+      
+
+    //     .facebookicon {
+    //         // font-style: 18px;
+    //         margin-right: 5px;
+    //         color: rgb(40, 74, 165);
+    //         font-size: xx-large;
+        
+
+    //     }
+
+    // }
  
 
     .wrapper{
@@ -143,9 +146,11 @@
 
     h1{
         font-size: 70px;
-        color: rgb(58, 55, 55);
+        color: rgb(65, 61, 61);
+        font-weight: 500;
         // font-family: 'Yellowtail', cursive;
         // font-family: 'Limelight', cursive;
+       
     
     }
 

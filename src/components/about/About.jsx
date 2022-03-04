@@ -4,10 +4,23 @@ import { DirectionsBike, FitnessCenter, Brush } from "@material-ui/icons";
 
 export default function About() {
   return (
-    <div className="about" id="about">
+<div className="about" id="about">
+{/* 
+<div className="a">
+      <div className="a-left">
+        <div className="a-card bg"></div>
+        <div className="a-card">
+          <img
+            src="assets/anusha.jpeg"
+            alt=""
+            className="a-img"
+          />
+        </div>
+      </div> */}
+      
         <div className="left">
           <div className="imgContainer">
-           <img src="assets/anusha.jpeg" alt=""/>
+           <img src="assets/abtme2.png" alt=""/>
           </div>
           </div>
       <div className="right">
@@ -32,5 +45,6 @@ export default function About() {
       </a>
 
     </div>
+
   )
 }
