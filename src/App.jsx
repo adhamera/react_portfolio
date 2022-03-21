@@ -4,7 +4,9 @@ import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
+// import Resources from "./components/resources/Resources";
 import Menu from "./components/menu/Menu";
+
 // import Cards from "./components/projects/Cards"
 import "./app.scss"
 import { useState } from "react";
@@ -22,6 +24,7 @@ function App() {
     {/* <Cards/> */}
     <Resume/>
     <Contact/>
+    {/* <Resources/> */}
 
     </div>
     </div>

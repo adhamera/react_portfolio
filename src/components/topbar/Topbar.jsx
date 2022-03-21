@@ -1,4 +1,5 @@
 import "./topbar.scss";
+import {GitHub, LinkedIn} from "@material-ui/icons";
 
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -44,9 +45,21 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             </div>
             </a>
           </div>
+          <div className="resourcesoption">
+            <a href="#resources" onClick={() => setMenuOpen(false)}>
+            <div className="itemContainer"> 
+            <span>Resources</span>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div className="linkedinContainer">
+        <LinkedIn className="linkedinicon" />
+        </div>
+        <div className="gitContainer">
+        <GitHub className="giticon" />
         </div>
         <div className="right">
-      
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>

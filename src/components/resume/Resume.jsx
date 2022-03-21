@@ -28,17 +28,28 @@ export default function Resume() {
         <h3>Trilogy Education</h3>
         <p>• Collaborated in a team environment to develop a service desk CRUD application, mental health application and more.   </p>
         </div>
-        <div>
-        <h1>Skills.</h1>
-     
-        </div>
+        <h1 className='softskills'>Soft Skills.</h1>
+        <hr></hr>
+        <h3>Self-motivated, ambitious, quick learner, empathetic, and inclusive</h3>
         </div>
     </div>
     <div className="right">
-    <h3>Present</h3>
+    <h1 className='skills'>Tech Skills.</h1>
+    <hr></hr>
+    <div className="progressbars">
+           <img src="assets/progress.png" alt=""/>
+      </div>
+    {/* <h3>Present</h3>
     <h3 className="two">September 2021 - December 2021</h3>
-    <h3 className="three">March 2021 - August 2021</h3>     
-          </div>
+    <h3 className="three">March 2021 - August 2021</h3>    */}
+        <div className="wrapper">
+        <h1 className='education'>Education.</h1>
+        <hr></hr>
+        <h2 className='school'>University of Minnesota, Twin Cities</h2>
+        <h3 className='degree'>Bachelor's of Science</h3>
+        <p className='info'>• Graduated with a degree in pyschology and successfully completed prequisites necessary for medical school. Served as president of Partners in Health Engage. Worked as a research assistant at HCMC, Mayo Clinic and UMN Medical School. Additionally, worked as customer service associate at Coffman Memorial Union. Volunteered at Masonic Children's Hospital, Mayo Clinic and Brain Injury Research Lab at HCMC.  </p>
+        </div>
+    </div>
     </div>
   
   

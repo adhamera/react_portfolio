@@ -76,7 +76,7 @@
       .bikeContainer {
         display: flex;
         align-items: center;
-        margin-left: 100px;
+        margin-left: 80px;
         text-decoration: none;
         margin-top: 20px;
 
@@ -85,7 +85,7 @@
           margin-right: 5px;
           color: black;
           // font-size: xx-large;
-          background-color: rgb(190, 223, 213);
+          background-color: rgb(206, 223, 186);
           border-radius: 35%;
           height: 70px;
           width: 70px;
@@ -95,7 +95,7 @@
       .fitnessContainer {
         display: flex;
         align-items: center;
-        margin-left: 250px;
+        margin-left: 180px;
         text-decoration: none;
         margin-top: -70px;
 
@@ -114,11 +114,51 @@
       .brushContainer {
         display: flex;
         align-items: center;
-        margin-left: 400px;
+        margin-left: 280px;
         text-decoration: none;
         margin-top: -70px;
 
         .brushicon {
+          // font-style: 18px;
+          margin-right: 5px;
+          color: black;
+          // font-size: xx-large;
+          background-color: rgb(252, 244, 198);
+          border-radius: 35%;
+          height: 70px;
+          width: 70px;
+          padding: 15px;
+        }
+      }
+
+      .flowerContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 380px;
+        text-decoration: none;
+        margin-top: -70px;
+
+        .flowericon {
+          // font-style: 18px;
+          margin-right: 5px;
+          color: black;
+          // font-size: xx-large;
+          background-color: rgb(220, 230, 226);
+          border-radius: 35%;
+          height: 70px;
+          width: 70px;
+          padding: 15px;
+        }
+      }
+
+      .bookContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 480px;
+        text-decoration: none;
+        margin-top: -70px;
+
+        .bookicon {
           // font-style: 18px;
           margin-right: 5px;
           color: black;
@@ -130,6 +170,7 @@
           padding: 15px;
         }
       }
+
     }
   }
 }

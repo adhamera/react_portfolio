@@ -10,17 +10,56 @@
     .left {
         flex: 0.50;
         overflow: hidden;
+        padding-left: 60px;
+
+        h1.softskills{
+
+            font-size: 70px;
+            color: rgb(22, 60, 71);
+            // margin-bottom: 10px;
+            // margin-top: 30px;
+            margin-bottom: 5px;
+            margin-top: 33px;
+            // margin-left: 5px;
+       
+        }
    
     }
     .right {
         flex: 0.50;
         overflow: hidden;
+        background-color: white;
+
+        h1.skills{
+
+            font-size: 70px;
+            color: rgb(22, 60, 71);
+            // margin-bottom: 10px;
+            // margin-top: 30px;
+            margin-bottom: 50px;
+            margin-top: 53px;
+            margin-left: 75px;
+       
+        }
+
+
+        h1.education{
+
+            font-size: 70px;
+            color: rgb(22, 60, 71);
+            // margin-bottom: 10px;
+            // margin-top: 30px;
+            margin-bottom: 50px;
+            margin-top: -15px;
+            margin-left: 45px;
+       
+        }
     
         h3{
             margin-top: 185px;
             margin-left: 200px;
             font-size: 20px;
-            font-weight: 200;
+            font-weight: 250;
         }
 
         h3.two {
@@ -34,6 +73,27 @@
             margin-top: 180px;
             margin-left: 200px;
             font-size: 20px;
+        }
+
+
+        .progressbars {
+            width: 700px;
+            height: 300px;
+            // background-color: rgb(37, 80, 124);
+            // border-radius: 50%;
+            display: flex;
+            // align-items: flex-end;
+            justify-content: center;
+            margin-top: -25px!important;
+    
+          
+            // float: right;
+        
+      
+            .img {
+              height: 90%;
+              width: 100%;
+            }
         }
       }
  
@@ -52,16 +112,23 @@
     // margin-right: 200px;
 
     h1{
-        font-size: 70px;
-        color: rgb(45, 95, 95);
+        font-size: 68px;
+        color: rgb(22, 60, 71);
         margin-bottom: 50px;
-        margin-top: 30px;
+        margin-top: 25px;
        
         // font-family: 'Yellowtail', cursive;
-        // font-family: 'Limelight', cursive;
-       
+        // font-family: 'Limelight', cursive;  
     
     }
+
+    // h1.skills{
+
+    //     font-size: 70px;
+    //     color: rgb(22, 60, 71);
+    //     margin-bottom: 10px;
+    //     margin-top: 30px;
+    // }
 
     hr.new4 {
         border: 1px solid red;
@@ -92,6 +159,22 @@
         }
      
     }
+
+    h3.degree{
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: -5px;
+        margin-left: 0px;
+        font-weight: 500;
+        color: rgb(91, 131, 120);
+
+        span{
+            font-size: inherit;
+            color: rgb(79, 79, 82);
+        }
+     
+    }
+    
 
 }
 

@@ -23,7 +23,6 @@
           // justify-content: center;
           flex-wrap: wrap;
           margin-left: 420px;
-          
       
         }
     }
@@ -166,11 +165,32 @@
         margin-bottom: 10px;
         margin-top: 10px;
         font-weight: 400;
+     
 
         span{
             font-size: inherit;
             color: rgb(79, 79, 82);
+            
+            // margin-left: 400px;
         }
+
+        .ityped-cursor{
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          50%{
+            opacity: 1;
+          }
+          100%{
+            opacity: 0;
+          }
+        }
+
+        // .blinkcursor{
+        //   margin-top: -40px;
+        //   margin-left: 400px;
+        // }
      
     }
 

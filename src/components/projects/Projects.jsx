@@ -27,7 +27,7 @@ const Card = props => {
     <p className="card-text-p">
     Plantlet is a plant care application that allows plant parents can keep tabs on their plants and track their plant’s condition over time. 
     </p>
-    <a href="#" className="btn btn-outline-success">Read More</a>
+    <a href="https://github.com/adhamera/Plant_App" className="btn btn-outline-success">Read More</a>
       </div>
       </div>
     </div>
@@ -46,7 +46,7 @@ const Card = props => {
     <p className="card-text-p">
     Mental health app which connects students with a counselor to set up a Zoom meeting, tests for anxiety and depression using the GAD-7 and PHQ-9, offeres guided meditation links and a mood survey. 
     </p>
-    <a href="#" className="btn btn-outline-success">Read More</a>
+    <a href="https://github.com/adhamera/Mindset-App" className="btn btn-outline-success">Read More</a>
       </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ const Card = props => {
     <p className="card-text-p">
     Full stack service desk ticket tracker with a front-end created with Handlebars and a backend created with Express and MongoDB. Deployed on Heroku.
     </p>
-    <a href="#" className="btn btn-outline-success">Read More</a>
+    <a href="https://github.com/adhamera/TicketTracker" className="btn btn-outline-success">Read More</a>
       </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ const Card = props => {
     <p className="card-text-p">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas eveniet rerum repellat corporis. Repellat voluptas magnam, officiis corporis temporibus molestiae.
     </p>
-    <a href="#" className="btn btn-outline-success">Read More</a>
+    <a href="https://github.com/adhamera/Mindset-App" className="btn btn-outline-success">Read More</a>
       </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import "./about.scss"
-import { DirectionsBike, FitnessCenter, Brush } from "@material-ui/icons";
+import { DirectionsBike, FitnessCenter, Brush, LocalFlorist, MenuBook} from "@material-ui/icons";
 
 
 export default function About() {
@@ -37,6 +37,12 @@ export default function About() {
         </div>
         <div className="brushContainer">
             <Brush className="brushicon" />
+        </div>
+        <div className="flowerContainer">
+            <LocalFlorist className="flowericon" />
+        </div>
+        <div className="bookContainer">
+            <MenuBook className="bookicon" />
         </div>
         </div>
       </div>
